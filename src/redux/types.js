@@ -1,0 +1,1 @@
+export const WRITE_INFO = "WRITE_INFO"

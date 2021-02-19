@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+$ff: 'Poiret One', cursive;
+$bl: black;
+$wh: white;
+
+#root{
+	color: $wh;
+	font-family: $ff;
+	a{
+		text-decoration: none;
+		color: $wh;
+	}
+}
+
+.bg-main{
+	min-height: 100vh;
+	background-color: $bl;
+}
+.cont-main{
+	min-height: 100vh;
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+@media screen and (max-width: 992px){
+	.cont-main{
+		padding-top: 30px;
+	}
+}
+@media screen and (max-width: 768px){
+	.cont-main{
+		padding-top: 20px;
+	}
+}
